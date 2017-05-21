@@ -16,7 +16,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
         android:layout_marginStart="30dp"
-        android:text="Username:"
+        android:text="@string/username"
         android:layout_alignBaseline="@+id/usernameInput"
         android:layout_alignBottom="@+id/usernameInput"
         android:layout_alignParentLeft="true"
@@ -30,7 +30,7 @@
         android:layout_alignRight="@+id/usernameLabel"
         android:layout_below="@+id/usernameInput"
         android:layout_marginTop="32dp"
-        android:text="Password:" />
+        android:text="@string/password" />
 
     <EditText
         android:id="@+id/usernameInput"
@@ -42,7 +42,8 @@
         android:layout_marginTop="8dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        tools:ignore="RelativeOverlap" />
 
     <EditText
         android:id="@+id/passwordInput"
@@ -50,7 +51,7 @@
         android:layout_height="wrap_content"
         android:width="200dp"
         android:ems="10"
-        android:inputType="textPersonName"
+        android:inputType=""
         android:layout_alignBaseline="@+id/passwordLabel"
         android:layout_alignBottom="@+id/passwordLabel"
         android:layout_alignParentRight="true"
@@ -65,7 +66,7 @@
         android:layout_below="@+id/passwordInput"
         android:layout_marginTop="96dp"
         android:onClick="saveInfo"
-        android:text="Save info" />
+        android:text="@string/save_info" />
 
     <Button
         android:id="@+id/button2"
@@ -78,7 +79,7 @@
         android:layout_marginEnd="14dp"
         android:layout_marginRight="14dp"
         android:onClick="displayData"
-        android:text="Display info" />
+        android:text="@string/display_info" />
 
     <TextView
         android:id="@+id/textInfo"
@@ -87,5 +88,5 @@
         android:layout_below="@+id/button2"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="90dp"
-        android:text="TextView" />
+        android:text="@string/textview" />
 </RelativeLayout>

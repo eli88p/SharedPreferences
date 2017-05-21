@@ -55,7 +55,8 @@
         android:layout_alignBaseline="@+id/passwordLabel"
         android:layout_alignBottom="@+id/passwordLabel"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        tools:ignore="TextFields" />
 
     <Button
         android:id="@+id/button"
